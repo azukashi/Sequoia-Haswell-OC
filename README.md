@@ -53,6 +53,6 @@ If you are using an incompatible graphic card (dropped support, etc.) you should
 ![Image 3](https://ipfs.filebase.io/ipfs/Qmf96N3RBruPPyN6cKemkgbKWZGxKWMfqDcUB8HRcNTRPN)
 
 [^1]: OCLP (OpenCore Legacy Patcher) is a Python-based project for both running and unlocking features in macOS on supported and unsupported Macs, such as Patching GPU drivers.
-[^1]: For those using desktop with iGPU (Integrated GPU), they should use `iMac18,1` for their SMBIOS.
+[^2]: For those using desktop with iGPU (Integrated GPU), they should use `iMac18,1` for their SMBIOS.
 [^3]: Please note that VGA (D-SUB) onboard port wouldn't work. Only HDMI onboard that will work.
 [^4]: Highest Supported OS for NVIDIA Kepler GPU series are macOS Big Sur (11). Further macOS version needs to be patched with OCLP.

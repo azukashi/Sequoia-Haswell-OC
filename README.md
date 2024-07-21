@@ -1,4 +1,6 @@
-#  Intel Haswell Hackintosh
+# 🛠️ macOS Ventura Haswell OpenCore
+
+![Banner](https://ipfs.filebase.io/ipfs/QmefBeSy7cb9cCGr5CfzXEFvV63u7NsLRZRss7bK77Nm5R)
 
 My daily driver Hackintosh configuration for Haswell (4th-Gen) of Intel Core running with H81 chipset.
 
@@ -42,7 +44,7 @@ If you are using an incompatible graphic card (dropped support, etc.) you should
 -   This version was prepared using OpenCore 1.0.0 for macOS Ventura (13.6.7).
 
 > [!NOTE]
-> If you want to upgrading to latest macOS version such as Sonoma (14) or earlier, just change the SMBIOS on the `config.plist` with GenSMBIOS tool and you are ready to upgrade.
+> If you want to upgrading to latest macOS version such as Sonoma (14) or earlier, just change the SMBIOS on the `config.plist` with the supported SMBIOS using GenSMBIOS tool and you are ready to upgrade.
 
 ## 🖼️ Screenshots
 
@@ -53,4 +55,4 @@ If you are using an incompatible graphic card (dropped support, etc.) you should
 [^1]: OCLP (OpenCore Legacy Patcher) is a Python-based project for both running and unlocking features in macOS on supported and unsupported Macs, such as Patching GPU drivers.
 [^1]: For those using desktop with iGPU (Integrated GPU), they should use `iMac18,1` for their SMBIOS.
 [^3]: Please note that VGA (D-SUB) onboard port wouldn't work. Only HDMI onboard that will work.
-[^4]: Highest Supported OS for NVIDIA Kepler GPU series are macOS Big Sur (11).
+[^4]: Highest Supported OS for NVIDIA Kepler GPU series are macOS Big Sur (11). Further macOS version needs to be patched with OCLP.

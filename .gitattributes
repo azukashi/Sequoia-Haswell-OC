@@ -1,0 +1,5 @@
+# Line ending
+* text=auto
+
+# Linguist
+*.plist linguist-detectable=true

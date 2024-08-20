@@ -14,7 +14,7 @@ My daily driver Hackintosh configuration for Haswell (4th-Gen) of Intel Core run
 | Audio         | Realtek ALC662 (`alcid=5`)                                                                |
 | Network       | Realtek Onboard Ethernet (no Wi-Fi card)                                                  |
 | Boot-Args     | `-v keepsyms=1 debug=0x100 alcid=5 amfi_get_out_of_my_way=0x1 ipc_control_port_options=0` |
-| SMBIOS        | iMac18,2 (Desktop with dGPU)[^2]                                                          |
+| SMBIOS        | MacPro7,1 (Desktop with dGPU)[^2]                                                         |
 
 > [!NOTE]
 >

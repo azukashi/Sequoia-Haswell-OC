@@ -1,6 +1,6 @@
 # 🛠️ macOS Ventura Haswell OpenCore
 
-![Banner](https://ipfs.filebase.io/ipfs/QmefBeSy7cb9cCGr5CfzXEFvV63u7NsLRZRss7bK77Nm5R)
+![Banner](https://socialify.git.ci/azukashi/Sequoia-Haswell-OC/image?custom_language=Apple&description=1&font=Jost&language=1&logo=https%3A%2F%2Fdortania.github.io%2FOpenCore-Legacy-Patcher%2Fhomepage.png&name=1&owner=1&pattern=Floating+Cogs&theme=Dark)
 
 My daily driver Hackintosh configuration for Haswell (4th-Gen) of Intel Core running with H81 chipset.
 
@@ -14,7 +14,7 @@ My daily driver Hackintosh configuration for Haswell (4th-Gen) of Intel Core run
 | Audio         | Realtek ALC662 (`alcid=5`)                                                                |
 | Network       | Realtek Onboard Ethernet (no Wi-Fi card)                                                  |
 | Boot-Args     | `-v keepsyms=1 debug=0x100 alcid=5 amfi_get_out_of_my_way=0x1 ipc_control_port_options=0` |
-| SMBIOS        | MacPro7,1 (Desktop with dGPU)[^2]                                                         |
+| SMBIOS        | iMac20,1 (Desktop with dGPU)[^2]                                                          |
 
 > [!NOTE]
 >
@@ -41,12 +41,17 @@ If you are using an incompatible graphic card (dropped support, etc.) you should
 
 ## 🔧 Improvements
 
--   This version was prepared using OpenCore 1.0.0 for macOS Ventura (13.6.7).
+-   This version was initially prepared using OpenCore 1.0.0 for macOS Ventura (13.6.7).
+-   This EFI config has been tested on macOS Sonoma and it was running well (14.7.5).
+-   This EFI config has been tested on macOS Sequoia (15), but there are [known stability and cosmetics issues due to Legacy Metal Graphics Support](https://github.com/dortania/OpenCore-Legacy-Patcher/issues/1008) on NVIDIA Kepler GPUs (I'm using an NVIDIA GT 730 with 1 GB of memory.)
+-   This EFI config has not yet been tested with macOS Tahoe (26). I don't know if this version is still Hackintosh-able or if it still supports Intel-based systems. This version is still in the Developer Beta stage at the time of writing this text.
 
 > [!NOTE]
-> If you want to upgrading to latest macOS version such as Sonoma (14) or earlier, just change the SMBIOS on the `config.plist` with the supported SMBIOS using GenSMBIOS tool and you are ready to upgrade.
+> If you want to upgrading to latest macOS version such as Tahoe (26) or newer version, take a look at supported device models first and just change the SMBIOS on the `config.plist` with the supported SMBIOS value using GenSMBIOS tool and you are ready to upgrade.
 
 ## 🖼️ Screenshots
+
+These are screenshots that I took on macOS Ventura (version 13.6.7).
 
 ![Image 1](https://ipfs.filebase.io/ipfs/QmSMoahrJTDkfvXFf24ikU4AB7TdZyghKY2vdPCkxdSSfA)
 ![Image 2](https://ipfs.filebase.io/ipfs/QmV45gHoGWBvf1AWpej2NAv5S5Ujv3Deu57iCCrZ3RtEz6)

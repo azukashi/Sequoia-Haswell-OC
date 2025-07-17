@@ -1,4 +1,4 @@
-# 🛠️ macOS Ventura Haswell OpenCore
+# 🛠️ macOS Sequoia Haswell OpenCore
 
 ![Banner](https://socialify.git.ci/azukashi/Sequoia-Haswell-OC/image?custom_language=Apple&description=1&font=Jost&language=1&logo=https%3A%2F%2Fdortania.github.io%2FOpenCore-Legacy-Patcher%2Fhomepage.png&name=1&owner=1&pattern=Floating+Cogs&theme=Dark)
 
